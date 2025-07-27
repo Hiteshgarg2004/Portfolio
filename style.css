@@ -147,7 +147,12 @@ h3 { font-size: 1.6em; }
     background-color: transparent;
     color: var(--accent-blue); /* Cyan/Teal text */
     border: 2px solid var(--accent-blue);
+     position: relative;
+  z-index: 9999;
+  pointer-events: auto;
 }
+
+
 
 .btn-contact:hover {
     background-color: var(--accent-blue); /* Cyan/Teal background */
